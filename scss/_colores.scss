@@ -1,0 +1,14 @@
+//LIBRERIA DE COLORES
+
+$colorUno: rgb(255,255,255);
+$colorDos: rgb(225,22,36);
+$colorTres: rgb(198,0,0);
+$colorCuatro: rgb(181,46,43);
+$colorCinco: rgb(70,67,63);
+$colorSeis: rgb(26,22,26);
+
+//DEGRADADOS
+.degradado {
+    background-image: linear-gradient(300deg, #c60000 , black 80%);
+}
+

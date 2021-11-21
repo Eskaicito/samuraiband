@@ -1,0 +1,27 @@
+/*******************
+ESTILOS GENERALES
+*******************/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    height: 130px;
+    background-color: transparent
+}
+body{
+    background-color: black;
+    font-family: 'Fugaz One', cursive;
+}
+.center {
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    max-width: 1520px;
+}

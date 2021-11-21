@@ -1,0 +1,28 @@
+/*******************
+TAMANOS
+*******************/
+$tamano-canciones: 900px;
+$ancho-fotos: 1000px;
+$alto-fotos: 600px;
+
+.tamanoPortada{
+    width: 100%;
+    height: auto;
+    max-width: 1520px;
+}
+.tamanoLogo{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+.tamanosFotos{
+    width: $ancho-fotos/2;
+    height: $alto-fotos/2;
+    border-radius: 2px;
+} 
+.canciones--tamano{
+    width: $tamano-canciones/2;
+    height: $tamano-canciones/2;
+    border-radius: 50px;
+    margin: 50px;
+}

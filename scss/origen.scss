@@ -1,0 +1,144 @@
+//Import
+@import "bs_scss/bootstrap.scss";
+@import "estructura";
+@import "tamanos";
+@import "textos";
+@import "colores";
+
+
+/*********************
+CSS DEL INDEX
+*********************/
+
+#fechas{
+    font-family: 'Fugaz One', cursive;
+    color: $colorUno;
+    width: 100%;
+    height: auto;
+    max-width: 1520px;
+    .fechas__lista{
+    font-size: 2vw;
+    text-align: center;
+    }
+}
+
+/********************
+CSS DE MUSICA
+********************/
+#canciones{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.trans{
+    transition: all 2s;
+}
+.trans:hover{
+    width: 600px;
+    height: 600px;
+}
+
+/*flexbox musica*/
+
+.canciones__flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************
+CSS MEDIA
+*********************/ 
+
+.fondoMedia{
+    background-image: url(..//img/fondomusica.png);
+}
+.transMedia{
+    transition: all 2s;
+}
+.transMedia:hover{
+    width: 700px;
+    height: 450px;
+}
+/*flexbox media*/
+
+.fotos-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px;
+}
+.fotos-flex-dos{
+    @extend.fotos-flex;
+    justify-content: space-around;
+}
+
+/***********************
+CSS NOTICIAS
+***********************/
+
+#noticias{
+    font-family: 'Fugaz One',cursive;
+    font-size: 1.5vw;
+    color: $colorUno;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+/**********************
+CSS CONTACTO
+**********************/
+
+.formulario{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+    color: $colorUno;
+}
+
+
+/*********************
+MEDIA QUERIES
+*********************/
+
+
+@media only screen and (max-width:600px){
+
+    /*general*/
+    .tamanoLogo{
+        width: 400px;
+        height: auto;
+    }
+    /*musica*/
+    .canciones{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            justify-content: center;
+        }
+    .trans{
+            transition: all 2s;
+        }
+    .trans:hover{
+            width: 250px;
+            height: 250px;
+        }
+    /*media*/
+        .tamanosFotos{
+            width: 300px;
+            height: 150px;
+            margin: 30px;
+        } 
+        .transMedia{
+            transition: all 2s;
+        }
+        .transMedia:hover{
+            width: 400px;
+            height: 250px;
+        }
+
+    
+}
