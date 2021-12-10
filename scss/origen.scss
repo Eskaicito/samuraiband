@@ -9,16 +9,26 @@
 CSS DEL INDEX
 *********************/
 
-#fechas{
-    font-family: 'Fugaz One', cursive;
-    color: $colorUno;
-    width: 100%;
-    height: auto;
-    max-width: 1520px;
-    .fechas__lista{
-    font-size: 2vw;
-    text-align: center;
+.eventos__lista{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 3vw;
+
+    .loc{
+        padding: 1rem;
     }
+    .lugar{
+        @extend .loc
+        
+    }
+    .lugar::after{
+        content: "................................."
+    }
+    .fecha{
+        @extend .loc
+    }
+
 }
 
 /********************
@@ -102,7 +112,21 @@ CSS CONTACTO
 /*********************
 MEDIA QUERIES
 *********************/
-
+@media only screen and (max-width:991px) {
+    .eventos__lista{
+        display: block;
+        text-align: center;
+        margin: 2rem;
+        text-transform: uppercase;
+        .loc{
+            padding: 0rem;
+        }
+    }
+    .lugar::after{
+        display: none;
+    }
+    
+}
 
 @media only screen and (max-width:650px){
 

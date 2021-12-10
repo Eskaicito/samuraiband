@@ -12,10 +12,8 @@ header {
 
 body {
   background-color: black;
-  font-family: 'Fugaz One', cursive; }
-
-.center {
-  text-align: center; }
+  font-family: 'Fugaz One', cursive;
+  color: white; }
 
 .footer {
   width: 100%;
@@ -68,21 +66,25 @@ ESTILOS DE TEXTO
   color: lightgrey;
   font-size: 2vw; }
 
+@media only screen and (max-width: 991px) {
+  .tour {
+    margin-bottom: 20px; } }
+
 .degradado {
   background-image: linear-gradient(300deg, #c60000, black 80%); }
 
 /*********************
 CSS DEL INDEX
 *********************/
-#fechas {
-  font-family: 'Fugaz One', cursive;
-  color: white;
-  width: 100%;
-  height: auto;
-  max-width: 1520px; }
-  #fechas .fechas__lista {
-    font-size: 2vw;
-    text-align: center; }
+.eventos__lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 3vw; }
+  .eventos__lista .loc, .eventos__lista .lugar, .eventos__lista .fecha {
+    padding: 1rem; }
+  .eventos__lista .lugar::after {
+    content: "................................."; }
 
 /********************
 CSS DE MUSICA
@@ -151,6 +153,17 @@ CSS CONTACTO
 /*********************
 MEDIA QUERIES
 *********************/
+@media only screen and (max-width: 991px) {
+  .eventos__lista {
+    display: block;
+    text-align: center;
+    margin: 2rem;
+    text-transform: uppercase; }
+    .eventos__lista .loc, .eventos__lista .lugar, .eventos__lista .fecha {
+      padding: 0rem; }
+  .lugar::after {
+    display: none; } }
+
 @media only screen and (max-width: 650px) {
   /*general*/
   .tamanoLogo {
