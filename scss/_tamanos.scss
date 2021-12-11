@@ -12,12 +12,6 @@ TAMANOS
     height: auto;
     max-width: 600px;
 }
-.tamanosFotos{
-    width: 100%;
-    height: auto;
-    max-width: 450px;
-    border-radius: 2px;
-} 
 .canciones--tamano{
     width: 100%;
     max-width: 400px;
@@ -25,7 +19,12 @@ TAMANOS
     border-radius: 50px;
     padding: 2rem;
 }
-
+.tamanosFotos{
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    border-radius: 2px;
+} 
 @media only screen and (max-width:650px){
 
     .tamanoLogo{

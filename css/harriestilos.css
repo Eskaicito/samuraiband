@@ -15,6 +15,11 @@ body {
   font-family: 'Fugaz One', cursive;
   color: white; }
 
+.footer {
+  width: 100%;
+  height: auto;
+  max-width: 1520px; }
+
 /*******************
 TAMANOS
 *******************/
@@ -28,18 +33,18 @@ TAMANOS
   height: auto;
   max-width: 600px; }
 
-.tamanosFotos {
-  width: 100%;
-  height: auto;
-  max-width: 450px;
-  border-radius: 2px; }
-
 .canciones--tamano {
   width: 100%;
   max-width: 400px;
   height: auto;
   border-radius: 50px;
   padding: 2rem; }
+
+.tamanosFotos {
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  border-radius: 2px; }
 
 @media only screen and (max-width: 650px) {
   .tamanoLogo {
@@ -73,6 +78,8 @@ ESTILOS DE TEXTO
   font-size: 2vw; }
 
 @media only screen and (max-width: 991px) {
+  .titulos {
+    font-size: 10vw; }
   .tour {
     margin-bottom: 20px; }
   .parrafos {
