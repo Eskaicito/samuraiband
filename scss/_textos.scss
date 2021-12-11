@@ -34,5 +34,22 @@ ESTILOS DE TEXTO
     .tour{
         margin-bottom: 20px;
     }
+    .parrafos{
+        font-size: 3vw;
+    }
+    .subtexto{
+        font-size: 4vw;
+    }
+}
+@media only screen and (max-width:650px) {
+    
+    .parrafos{
+        font-size: 4vw;
+        text-align: center;
+    }
+    .subtexto{
+        font-size: 5vw;
+        text-align: center
+    }
 }
 

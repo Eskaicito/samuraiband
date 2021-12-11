@@ -25,3 +25,11 @@ TAMANOS
     border-radius: 50px;
     padding: 2rem;
 }
+
+@media only screen and (max-width:650px){
+
+    .tamanoLogo{
+        width: 300px;
+        height: auto;
+    }
+}

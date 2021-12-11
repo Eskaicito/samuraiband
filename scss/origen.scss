@@ -48,7 +48,6 @@ CSS DE MUSICA
     justify-content: center;
     align-items: center;
 }
-
 /*********************
 CSS MEDIA
 *********************/ 
@@ -121,35 +120,7 @@ MEDIA QUERIES
     }
     .lugar::after{
         display: none;
-    }
-    
 }
-
-@media only screen and (max-width:650px){
-
-    /*******************
-    INDEX
-    *******************/
-    .tamanoLogo{
-        width: 300px;
-        height: auto;
-    }
-    /*****************
-    MUSICA
-    *****************/
-    .canciones{
-            width: 200px;
-            height: 200px;
-            border-radius: 10px;
-            justify-content: center;
-        }
-    .trans{
-            transition: all 2s;
-        }
-    .trans:hover{
-            width: 250px;
-            height: 250px;
-        }
     /****************
     MEDIA
     ****************/
