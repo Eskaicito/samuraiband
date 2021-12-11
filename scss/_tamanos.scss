@@ -26,3 +26,16 @@ $alto-fotos: 600px;
     border-radius: 50px;
     padding: 2rem;
 }
+@media only screen and (max-width:991px){
+    .canciones--tamano{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width:650px){
+    .canciones--tamano{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
