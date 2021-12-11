@@ -30,7 +30,6 @@ CSS DEL INDEX
     }
 
 }
-
 /********************
 CSS DE MUSICA
 ********************/
@@ -69,8 +68,6 @@ CSS MEDIA
     width: 700px;
     height: 450px;
 }
-/*flexbox media*/
-
 .fotos-flex{
     display: flex;
     flex-flow: row wrap;
@@ -113,6 +110,11 @@ CSS CONTACTO
 MEDIA QUERIES
 *********************/
 @media only screen and (max-width:991px) {
+   
+   
+   /********
+   INDEX
+   ********/
     .eventos__lista{
         display: block;
         text-align: center;
@@ -130,12 +132,16 @@ MEDIA QUERIES
 
 @media only screen and (max-width:650px){
 
-    /*general*/
+    /*******************
+    INDEX
+    *******************/
     .tamanoLogo{
         width: 300px;
         height: auto;
     }
-    /*musica*/
+    /*****************
+    MUSICA
+    *****************/
     .canciones{
             width: 200px;
             height: 200px;
@@ -149,7 +155,9 @@ MEDIA QUERIES
             width: 250px;
             height: 250px;
         }
-    /*media*/
+    /****************
+    MEDIA
+    ****************/
         .tamanosFotos{
             width: 300px;
             height: 150px;
@@ -166,7 +174,10 @@ MEDIA QUERIES
     
 }
 @media only screen and (max-width:500px){
-        /*general*/
+
+    /****************
+    INDEX
+    ****************/
     .tamanoLogo{
         width: 200px;
         height: auto;

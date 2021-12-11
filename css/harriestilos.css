@@ -120,7 +120,6 @@ CSS MEDIA
   width: 700px;
   height: 450px; }
 
-/*flexbox media*/
 .fotos-flex, .fotos-flex-dos {
   display: flex;
   flex-flow: row wrap;
@@ -154,6 +153,9 @@ CSS CONTACTO
 MEDIA QUERIES
 *********************/
 @media only screen and (max-width: 991px) {
+  /********
+   INDEX
+   ********/
   .eventos__lista {
     display: block;
     text-align: center;
@@ -165,11 +167,15 @@ MEDIA QUERIES
     display: none; } }
 
 @media only screen and (max-width: 650px) {
-  /*general*/
+  /*******************
+    INDEX
+    *******************/
   .tamanoLogo {
     width: 300px;
     height: auto; }
-  /*musica*/
+  /*****************
+    MUSICA
+    *****************/
   .canciones {
     width: 200px;
     height: 200px;
@@ -180,7 +186,9 @@ MEDIA QUERIES
   .trans:hover {
     width: 250px;
     height: 250px; }
-  /*media*/
+  /****************
+    MEDIA
+    ****************/
   .tamanosFotos {
     width: 300px;
     height: 150px;
@@ -192,7 +200,9 @@ MEDIA QUERIES
     height: 250px; } }
 
 @media only screen and (max-width: 500px) {
-  /*general*/
+  /****************
+    INDEX
+    ****************/
   .tamanoLogo {
     width: 200px;
     height: auto; } }
