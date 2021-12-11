@@ -10,7 +10,9 @@ ESTILOS DE TEXTO
     font-family: 'Fugaz One', cursive;
     color: lightgrey;
     font-size: 7vw;
-    margin-left: 100px;
+    margin: 50px;
+    text-transform: uppercase;
+    text-align: center;
 }
 .tour{
     font-family: 'Stalinist one', cursive;
@@ -19,12 +21,12 @@ ESTILOS DE TEXTO
     text-align: center;
     margin-bottom: 100px
 }
-.noticias--titulos{
-    font-family: 'Fugaz One', cursive;
-    color: lightgrey;
-    font-size: 2vw;
+.parrafos{
+    font-family: 'Roboto', sans-serif;
 }
-
+.subtexto{
+    font-family: 'Bebas Neue', sans-serif;
+}
 @media only screen and (max-width:991px) {
     .tour{
         margin-bottom: 20px;
