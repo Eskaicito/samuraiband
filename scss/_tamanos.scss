@@ -1,9 +1,6 @@
 /*******************
 TAMANOS
 *******************/
-$tamano-canciones: 900px;
-$ancho-fotos: 1000px;
-$alto-fotos: 600px;
 
 .tamanoPortada{
     width: 100%;
@@ -16,26 +13,15 @@ $alto-fotos: 600px;
     max-width: 600px;
 }
 .tamanosFotos{
-    width: $ancho-fotos/2;
-    height: $alto-fotos/2;
+    width: 100%;
+    height: auto;
+    max-width: 450px;
     border-radius: 2px;
 } 
 .canciones--tamano{
-    width: $tamano-canciones/2;
-    height: $tamano-canciones/2;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     border-radius: 50px;
     padding: 2rem;
-}
-@media only screen and (max-width:991px){
-    .canciones--tamano{
-        width: 200px;
-        height: 200px;
-    }
-}
-@media only screen and (max-width:650px){
-    .canciones--tamano{
-        width: 100px;
-        height: 100px;
-    }
-    
 }

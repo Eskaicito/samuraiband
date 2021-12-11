@@ -34,13 +34,15 @@ TAMANOS
   max-width: 600px; }
 
 .tamanosFotos {
-  width: 500px;
-  height: 300px;
+  width: 100%;
+  height: auto;
+  max-width: 450px;
   border-radius: 2px; }
 
 .canciones--tamano {
-  width: 450px;
-  height: 450px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   border-radius: 50px;
   padding: 2rem; }
 
@@ -72,9 +74,7 @@ ESTILOS DE TEXTO
 
 @media only screen and (max-width: 991px) {
   .tour {
-    margin-bottom: 20px; }
-  .parrafos {
-    font-size: 2vw; } }
+    margin-bottom: 20px; } }
 
 .degradado {
   background-image: linear-gradient(300deg, #c60000, black 80%); }
