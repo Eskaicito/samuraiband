@@ -136,6 +136,10 @@ CSS DE MUSICA
 /*********************
 CSS MEDIA
 *********************/
+.video {
+  width: 100%;
+  height: 70vh; }
+
 div.gallery {
   margin: 5px;
   width: 100%;

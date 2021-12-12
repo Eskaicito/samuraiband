@@ -66,7 +66,7 @@
     <main>
         <!--fotos-->
         <h2 class="titulos">fotos</h2>
-        <section>
+        <section class="gradiente-1">
           <article class="container-fluid">
             <div class="container">
               <div class="row">
@@ -86,7 +86,7 @@
             </div>
           </article>
         </section>
-        <section>
+        <section class="gradiente-2 mb-5">
           <article class="container-fluid">
             <div class="container">
               <div class="row">
@@ -107,24 +107,29 @@
           </article>
         </section>
         <h2 class="titulos">videos</h2>
-        <section>
+        <section class="gradiente-1">
           <article class="container-fluid">
             <div class="container">
               <div class="row">
                 <div class="col-lg-8 d-flex justify-content-center">
-                  <iframe width="800" height="500" src="https://www.youtube.com/embed/y-n_-b1mhEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe class= "video"src="https://www.youtube.com/embed/y-n_-b1mhEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="col-lg-4 d-flex flex-column">
-                  <h2 class="display-3 d-flex justify-content-center text-center">The Ballad of Buck Ravers</h2>
-                  <p class="parrafos">A pesar de no ser tan famosa como "Never Fade Away" o "Chippin In",  "The Ballad of Buck Ravers" es considerada por muchos fanáticos como la canción más furiosa y ciberpunk de la banda. Y tienen mucha razón en ello...</p>
-                  <div>
-                    <p class="subtexto text-center">Escúchala en Spotify</p>
-                  </div>
-                  <div class="d-flex justify-content-center">
-                    <a href="https://open.spotify.com/track/4QFsfUVgZesJCJ7jQXCXZ4?si=d6f8cd33a4c94a9e">
-                      <img src="../img/Spotify_icon-icons.com_66783.png" alt="spotify">
-                    </a>
-                  </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center">
+                  <p class="subtexto">Uno de los pocos videos de la banda en vivo, en dónde tocan uno de sus más recordados sencillos: "A Like Supreme", y todo grabado desde la perspectiva del guitarrista principal y el líder de la banda, Johnny Silverhand</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="gradiente-2">
+          <article class="container-fluid">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 d-flex justify-content-center order-lg-2 mt-5">
+                  <iframe class="video"src="https://www.youtube.com/embed/oHoXJOPzqb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center order-lg-1">
+                  <p class="subtexto">El último concierto de SAMURAI, antes de que Johnny Silverhand muriera en la torre Arasaka. La banda se disolvería hasta 2077, dónde se reunirían una última vez para una última gira</p>
                 </div>
               </div>
             </div>
@@ -132,9 +137,18 @@
         </section>
         <!--fotos-->
     </main>
-    <footer>
-        <img class="footer" src="../img/footer.png" alt="imagenfooter">
+    <!--footer-->
+    <footer class="mt-5">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <p class="subtexto">2077 ©SAMURAIBAND ©Universal Records</p>
+        </div>  
+      </div>
+      <div>
+        <img class="img-fluid" src="../img/footer.png" alt="imagenfooter">
+      </div>
     </footer>
+    <!--footer-->
     <script src="../bootstrap_local/js/bootstrap.js"></script>
 </body>
 </html>
