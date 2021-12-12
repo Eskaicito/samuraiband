@@ -11,4 +11,10 @@ $colorSeis: rgb(26,22,26);
 .degradado {
     background-image: linear-gradient(300deg, #c60000 , black 80%);
 }
+.gradiente-1{
+    background: linear-gradient(transparent 30%, #470a0a)
+}
+.gradiente-2{
+    background: linear-gradient(#470a0a 30%, transparent)
+}
 
