@@ -95,6 +95,33 @@ ESTILOS DE TEXTO
     font-size: 5vw;
     text-align: center; } }
 
+.colorUno {
+  background-color: white; }
+
+.colorDos {
+  background-color: #e11624; }
+
+.colorTres {
+  background-color: #c60000; }
+
+.colorCuatro {
+  background-color: #470a0a; }
+
+.colorCinco {
+  background-color: #b52e2b; }
+
+.colorSeis {
+  background-color: #46433f; }
+
+.colorSiete {
+  background-color: #1a161a; }
+
+.colorOcho {
+  background-color: #000000; }
+
+.transparente {
+  background-color: transparent; }
+
 .degradado {
   background-image: linear-gradient(300deg, #c60000, black 80%); }
 
@@ -106,6 +133,9 @@ ESTILOS DE TEXTO
 
 .gradiente-3 {
   background: linear-gradient(transparent, #470a0a 50%, transparent); }
+
+.gradiente-4 {
+  background: linear-gradient(transparent, #46433f 50%, transparent); }
 
 /*********************
 CSS DEL INDEX
@@ -120,22 +150,17 @@ CSS DEL INDEX
   .eventos__lista .lugar::after {
     content: "................................."; }
 
+/***********************
+CSS MIEMBROS
+***********************/
+.trans-1 {
+  transition: all 2s; }
+  .trans-1 :hover {
+    background-image: url(../img/johnnyfoto_hover.png); }
+
 /********************
 CSS DE MUSICA
 ********************/
-.trans {
-  transition: all 2s; }
-
-.trans:hover {
-  width: 600px;
-  height: 600px; }
-
-.canciones__flex {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center; }
-
 /*********************
 CSS MEDIA
 *********************/
@@ -158,16 +183,6 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center; }
-
-/***********************
-CSS NOTICIAS
-***********************/
-#noticias {
-  font-family: 'Fugaz One',cursive;
-  font-size: 1.5vw;
-  color: white;
-  display: flex;
-  justify-content: space-evenly; }
 
 /**********************
 CSS CONTACTO

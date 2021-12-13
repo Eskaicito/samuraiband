@@ -6,7 +6,36 @@ $colorTres: rgb(198,0,0);
 $colorCuatro: rgb(181,46,43);
 $colorCinco: rgb(70,67,63);
 $colorSeis: rgb(26,22,26);
+$colorSiete: rgb(0,0,0);
 
+//CLASES DE COLORES
+.colorUno{
+    background-color: rgb(255,255,255) ;
+}
+.colorDos{
+    background-color: rgb(225,22,36);
+}
+.colorTres{
+    background-color: rgb(198,0,0);
+}
+.colorCuatro{
+    background-color: #470a0a;
+}
+.colorCinco{
+    background-color: rgb(181,46,43);
+}
+.colorSeis{
+    background-color:rgb(70,67,63);
+}
+.colorSiete{
+    background-color: rgb(26,22,26);
+}
+.colorOcho{
+    background-color: #000000;
+}
+.transparente{
+    background-color: transparent;
+}
 //DEGRADADOS
 .degradado {
     background-image: linear-gradient(300deg, #c60000 , black 80%);
@@ -19,6 +48,9 @@ $colorSeis: rgb(26,22,26);
 }
 .gradiente-3{
     background: linear-gradient(transparent , #470a0a 50%, transparent)
+}
+.gradiente-4{
+    background: linear-gradient(transparent ,  rgb(70,67,63) 50%, transparent)
 }
 
 

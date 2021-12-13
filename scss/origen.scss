@@ -30,23 +30,22 @@ CSS DEL INDEX
     }
 
 }
+
+/***********************
+CSS MIEMBROS
+***********************/
+.trans-1{
+    transition: all 2s;
+    :hover{
+        background-image: url(../img/johnnyfoto_hover.png);
+    }
+}
+
+
 /********************
 CSS DE MUSICA
 ********************/
-.trans{
-    transition: all 2s;
-}
-.trans:hover{
-    width: 600px;
-    height: 600px;
-}
 
-.canciones__flex{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
 /*********************
 CSS MEDIA
 *********************/ 
@@ -74,18 +73,6 @@ div.gallery {
     text-align: center;
   }
 
-/***********************
-CSS NOTICIAS
-***********************/
-
-#noticias{
-    font-family: 'Fugaz One',cursive;
-    font-size: 1.5vw;
-    color: $colorUno;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
 
 
 /**********************
