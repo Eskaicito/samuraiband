@@ -104,6 +104,9 @@ ESTILOS DE TEXTO
 .gradiente-2 {
   background: linear-gradient(#470a0a 30%, transparent); }
 
+.gradiente-3 {
+  background: linear-gradient(transparent, #470a0a 50%, transparent); }
+
 /*********************
 CSS DEL INDEX
 *********************/
