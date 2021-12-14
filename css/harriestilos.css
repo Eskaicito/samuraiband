@@ -153,11 +153,6 @@ CSS DEL INDEX
 /***********************
 CSS MIEMBROS
 ***********************/
-.trans-1 {
-  transition: all 2s; }
-  .trans-1 :hover {
-    background-image: url(../img/johnnyfoto_hover.png); }
-
 /********************
 CSS DE MUSICA
 ********************/
