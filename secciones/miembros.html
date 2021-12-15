@@ -16,10 +16,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body class="grids-area">
+<body>
     <!--header-->
     <header id="header">
-        <div class="text-center animate__animated animate__fadeInUp"><a href="../index.html"><img class="tamanoLogo" src="../img/nombresamkatana.png" alt="nombresamurai"></a></div>
+      <div class="text-center animate__animated animate__fadeInRight">
+        <a href="../index.html">
+          <img class="tamanoLogo" src="../img/samurainegro.png" alt="nombresamurai">
+        </a>
+      </div>
         <!--menu nav-->
         <nav class="navbar navbar-light fixed-top">
           <div class="container-fluid">
@@ -62,7 +66,7 @@
     </header> 
     <!--header-->
     <!--portada--> 
-    <div data-aos="fade-in">
+    <div>
         <img class="tamanoPortada"src="../img/bannerNoticias.png" alt="">
     </div>
     <!--portada-->
@@ -70,13 +74,35 @@
       <div>
         <h1 class="titulos" data-aos="fade-in">la banda</h1>
       </div>
-      <section class="gradiente-3">
+      <section>
         <article class="container-fluid">
           <div class="container">
             <div class="row d-flex justify-content-center">
-              <div class="col-lg-12 m-5">
-                <p class="parrafos-2 text-center">SAMURAI es una banda del tipo Chrome Rock inicialmente activa desde 2003 hasta 2008, y luego desde 2020 a 2023. Como muchas otras bandas, Samurai comenzó como un grupo callejero que tocaba en varios clubes y bares en Night City hasta que el director de Universal Music les ofreció un contrato. Tras esto, el grupo tuvo un gran éxito, con giras y álbumes. El grupo se disolvió permanentemente en 2023 cuando Johnny Silverhand y un equipo que incluía a Rogue y Morgan Blackhand atacaron la Torre Arasaka tras la conclusión de la Cuarta Guerra Corporativa. Es conocido que Adam Smasher disparó a Johnny, y su cuerpo nunca fue encontrado después de la explosión de la bomba atómica dentro de la torre...</p>
-                <img class=" img-fluid" src="../img/johhny_frente_discos.jpg" data-src="../img/johhny_frente_discos.jpg" alt="johhny_frente_discos">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/johhny_frente_discos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/johhny_frente_discos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/johhny_frente_discos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
           </div>
@@ -119,8 +145,8 @@
               <div class="col-sm-3">
                 <div class="gradiente-4">
                   <img src="../img/dennyfoto.png" alt="AvatarDenny" style="width:100%">
-                  <div class="container">
-                    <h2 class="subtexto">Denny Parton</h2>
+                  <div class="container m-2">
+                    <h2 class="subtexto"><b>Denny Parton</b></h2>
                     <p class="parrafos">La baterista de la banda Samurai hasta su ruptura, después de lo cual se unió a la banda Mastermind. Poco se sabe de su vida luego de su paso por esta banda, pues se dice prefirió una vida normal y completamente alejada de los focos</p>
                   </div>
                 </div> 
@@ -146,6 +172,10 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+      var myCarousel = document.querySelector('#myCarousel')
+      var carousel = new bootstrap.Carousel(myCarousel)
     </script>
 </body>
 </html>
