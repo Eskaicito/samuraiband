@@ -162,7 +162,9 @@ ESTILOS DE TEXTO
   z-index: -3; }
 
 .gradiente-3 {
-  background: linear-gradient(transparent, #470a0a 50%, transparent); }
+  background: linear-gradient(transparent, #470a0a 50%, transparent);
+  position: relative;
+  z-index: -2; }
 
 .gradiente-4 {
   background: linear-gradient(transparent, #46433f 50%, transparent); }
@@ -177,8 +179,15 @@ CSS DEL INDEX
   font-size: 3vw; }
   .eventos__lista .loc, .eventos__lista .lugar, .eventos__lista .fecha {
     padding: 1rem; }
-  .eventos__lista .lugar::after {
+  .eventos__lista .lugar::after, .eventos__lista .fecha::after {
     content: "................................."; }
+
+/********************
+CSS MIEMBROS
+*********************/
+[data-aos="flip-left"] {
+  position: relative;
+  z-index: -1; }
 
 /*********************
 CSS MEDIA
@@ -230,7 +239,7 @@ MEDIA QUERIES
     text-transform: uppercase; }
     .eventos__lista .loc, .eventos__lista .lugar, .eventos__lista .fecha {
       padding: 0rem; }
-  .lugar::after {
+  .lugar::after, .eventos__lista .fecha::after {
     display: none; }
   /****************
     MEDIA

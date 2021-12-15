@@ -50,6 +50,8 @@ $colorSiete: rgb(0,0,0);
 }
 .gradiente-3{
     background : linear-gradient(transparent , #470a0a 50%, transparent);
+    position:relative;
+    z-index: -2;
 }
 .gradiente-4{
     background: linear-gradient(transparent ,  rgb(70,67,63) 50%, transparent)

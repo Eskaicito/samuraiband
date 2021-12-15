@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Josefin+Sans:wght@200;600&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Stalinist+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
@@ -119,7 +120,7 @@
           <div class="container">
             <div class="row d-flex justify-content-center">
               <div class="col-sm-3">
-                <div class="gradiente-4">
+                <div class="gradiente-4" data-aos="flip-left">
                   <img class="transicion" src="../img/johnnyfoto.png" alt="AvatarJohhny"  style="width:100%">
                   <div class="container m-2">
                     <h2 class="subtexto"><b>Johnny Silverhand</b></h2>
@@ -128,7 +129,7 @@
                 </div> 
               </div>
               <div class="col-sm-3">
-                <div class="gradiente-4">
+                <div class="gradiente-4" data-aos="flip-left">
                   <img class="transicion" src="../img/kerryfoto.png" alt="AvatarKerry" style="width:100%">
                   <div class="container m-2">
                     <h2 class="subtexto"><b>Kerry Eurodyne</b></h2>
@@ -137,7 +138,7 @@
                 </div> 
               </div>
               <div class="col-sm-3">
-                <div class="gradiente-4">
+                <div class="gradiente-4" data-aos="flip-left">
                   <img class="transicion" src="../img/nancyfoto.png" alt="AvatarNancy" style="width:100%">
                   <div class="container m-2">
                     <h2 class="subtexto"><b>Nancy "Bes Isis" Hartley</b></h2>
@@ -146,7 +147,7 @@
                 </div> 
               </div>
               <div class="col-sm-3">
-                <div class="gradiente-4">
+                <div class="gradiente-4" data-aos="flip-left">
                   <img class="transicion" src="../img/dennyfoto.png" alt="AvatarDenny" style="width:100%">
                   <div class="container m-2">
                     <h2 class="subtexto"><b>Denny Parton</b></h2>
@@ -179,6 +180,10 @@
     <script>
       var myCarousel = document.querySelector('#myCarousel')
       var carousel = new bootstrap.Carousel(myCarousel)
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
     </script>
 </body>
 </html>

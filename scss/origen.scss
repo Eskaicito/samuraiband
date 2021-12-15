@@ -26,11 +26,17 @@ CSS DEL INDEX
         content: "................................."
     }
     .fecha{
-        @extend .loc
+        @extend.lugar
     }
 
 }
-
+/********************
+CSS MIEMBROS
+*********************/
+[data-aos="flip-left"]{
+    position: relative;
+    z-index: -1;
+}
 /*********************
 CSS MEDIA
 *********************/ 
