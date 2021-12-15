@@ -28,27 +28,26 @@ CSS DEL INDEX
     .fecha{
         @extend.loc
     }
-
 }
-/*********************
-CSS MEDIA
-*********************/ 
+ /*********************
+   CSS MEDIA
+ *********************/ 
 .video{
     width: 100%;
     height: 70vh;
 }
-    .gallery {
+    .galeria {
     margin: 5px;
     width: 100%;
     height: auto;
     transition: all 1s;
   }
   
-  .gallery:hover {
+  .galeria:hover {
     transform: scale(0.95)
   }
   
-  .gallery img {
+  .galeria img {
     width: 100%;
     height: auto;
     border-radius: 1rem;
