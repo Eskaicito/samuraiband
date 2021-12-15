@@ -24,7 +24,13 @@ TAMANOS
     height: auto;
     max-width: 450px;
     border-radius: 2px;
-} 
+}
+.transicion{
+    transition: all 0.5s;
+}
+.transicion:hover{
+    transform: scale(0.9);
+}
 @media only screen and (max-width:650px){
 
     .tamanoLogo{
