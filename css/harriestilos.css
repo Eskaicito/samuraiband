@@ -46,10 +46,10 @@ TAMANOS
   max-width: 450px;
   border-radius: 2px; }
 
-.transicion {
+.trans {
   transition: all 0.5s; }
 
-.transicion:hover {
+.trans:hover {
   transform: scale(0.9); }
 
 @media only screen and (max-width: 650px) {
@@ -162,9 +162,7 @@ ESTILOS DE TEXTO
   z-index: -3; }
 
 .gradiente-3 {
-  background: linear-gradient(transparent, #470a0a 50%, transparent);
-  position: relative;
-  z-index: -2; }
+  background: linear-gradient(transparent, #470a0a 50%, transparent); }
 
 .gradiente-4 {
   background: linear-gradient(transparent, #46433f 50%, transparent); }
@@ -179,7 +177,7 @@ CSS DEL INDEX
   font-size: 3vw; }
   .eventos__lista .loc, .eventos__lista .lugar, .eventos__lista .fecha {
     padding: 1rem; }
-  .eventos__lista .lugar::after, .eventos__lista .fecha::after {
+  .eventos__lista .lugar::after {
     content: "................................."; }
 
 /********************
@@ -239,7 +237,7 @@ MEDIA QUERIES
     text-transform: uppercase; }
     .eventos__lista .loc, .eventos__lista .lugar, .eventos__lista .fecha {
       padding: 0rem; }
-  .lugar::after, .eventos__lista .fecha::after {
+  .lugar::after {
     display: none; }
   /****************
     MEDIA
