@@ -30,13 +30,6 @@ CSS DEL INDEX
     }
 
 }
-/********************
-CSS MIEMBROS
-*********************/
-[data-aos="flip-left"]{
-    position: relative;
-    z-index: -1;
-}
 /*********************
 CSS MEDIA
 *********************/ 
@@ -80,7 +73,28 @@ CSS CONTACTO
     font-family: 'Fugaz One', cursive;
     color: $colorUno;
 }
+/********************
+TRANSFORMACIONES Y ANIMACIONES
+*********************/
+.trans{
+    transition: all 0.5s;
+}
+.trans:hover{
+    transform: scale(0.9);
+}
 
+[data-aos="flip-left"]{
+    position: relative;
+    z-index: -1;
+}
+[data-aos="fade-left"]{
+    position: relative;
+    z-index: -1;
+}
+[data-aos="fade-right"]{
+    position: relative;
+    z-index: -1;
+}
 
 /*********************
 MEDIA QUERIES
