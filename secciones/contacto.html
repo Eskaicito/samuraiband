@@ -26,7 +26,6 @@
 </head>
 <body>
     <header>
-        <div class="center"><a href="../index.html"><img class="tamanoLogo" src="../img/nombresamkatana.png" alt="nombresamurai"></a></div>
         <!--menu nav-->
         <nav class="navbar navbar-light fixed-top">
           <div class="container-fluid">
@@ -62,7 +61,7 @@
         <!--menu nav-->
     </header>  
     <!--header-->
-    <main>
+    <main id="revolucion">
         <h1 class="titulos"> UNETE A NUESTRA REVOLUCION</h1>
         <!--formulario-->
             <form action="">
@@ -91,9 +90,27 @@
             </form>
         <!--formulario-->
      </main>
-     <footer> 
-        <img class="footer" src="../img/footer.png" alt="imagenfooter">
-     </footer>
-     <script src="../bootstrap_local/js/bootstrap.js"></script>
+     <footer>
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <p class="subtexto">2077 ©samuraiband ©universal records</p>
+        </div>  
+      </div>
+      <div>
+        <img class="img-fluid" src="../img/footer.png" alt="imagenfooter">
+      </div>
+    </footer>
+    <!--footer-->
+    <!--scripts BOOTSTRAP-->
+    <script src="../bootstrap_local/js/bootstrap.js"></script>
+    <!--scripts ANIMACIONES-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      var myCarousel = document.querySelector('#myCarousel')
+      var carousel = new bootstrap.Carousel(myCarousel)
+    </script>
 </body>
 </html>

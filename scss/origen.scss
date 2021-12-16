@@ -95,7 +95,11 @@ CSS MUSICA
 /**********************
 CSS CONTACTO
 **********************/
-
+#revolucion{
+    background-image: url(../img/fondoUnete.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .formulario{
     text-align: center;
     font-size: 20px;
