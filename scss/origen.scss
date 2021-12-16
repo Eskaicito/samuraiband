@@ -92,8 +92,6 @@ CSS MUSICA
     }
 }
 
-
-
 /**********************
 CSS CONTACTO
 **********************/
@@ -157,35 +155,4 @@ MEDIA QUERIES
         }
     }
 }
-/********************
-        MIEMBROS
-********************/
-/********************
-        MEDIA
-*********************/
-    .tamanosFotos{
-        width: 300px;
-        height: 150px;
-        margin: 30px;
-        } 
-    .transMedia{
-        transition: all 2s;
-    }
-    .transMedia:hover{
-            width: 400px;
-            height: 250px;
-        }
-    }
-
-    
-
-@media only screen and (max-width:500px){
-
-    /****************
-    INDEX
-    ****************/
-    .tamanoLogo{
-        width: 200px;
-        height: auto;
-    }
 }
