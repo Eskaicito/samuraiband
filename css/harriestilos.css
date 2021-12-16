@@ -33,7 +33,7 @@ TAMANOS
   height: auto;
   max-width: 600px; }
 
-.canciones--tamano {
+.cancionTamano {
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -171,10 +171,12 @@ CSS DEL INDEX
   flex-direction: row;
   flex-wrap: nowrap;
   font-size: 3vw; }
-  .eventos__lista .loc, .eventos__lista .lugar, .eventos__lista .fecha {
+  .eventos__lista .loc, .eventos__lista .lugar {
     padding: 1rem; }
   .eventos__lista .lugar::after {
     content: "................................."; }
+  .eventos__lista .fecha {
+    padding: 1rem; }
 
 /*********************
 CSS MIEMBROS
@@ -187,6 +189,12 @@ CSS MIEMBROS
   background-repeat: no-repeat;
   background-size: cover; }
 
+#miembros {
+  padding: 1rem; }
+
+/*********************
+CSS MUSICA
+*********************/
 /*********************
    CSS MEDIA
  *********************/
@@ -256,7 +264,7 @@ MEDIA QUERIES
     text-align: center;
     margin: 2rem;
     text-transform: uppercase; }
-    .eventos__lista .loc, .eventos__lista .lugar, .eventos__lista .fecha {
+    .eventos__lista .loc, .eventos__lista .lugar {
       padding: 0rem; }
   .lugar::after {
     display: none; }

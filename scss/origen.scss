@@ -30,7 +30,7 @@ CSS DEL INDEX
         content: "................................."
     }
     .fecha{
-        @extend.loc
+        padding: 1rem;
     }
 }
 /*********************
@@ -44,6 +44,13 @@ CSS MIEMBROS
     background-repeat: no-repeat;
     background-size: cover;
 }
+#miembros{
+    padding: 1rem;
+}
+/*********************
+CSS MUSICA
+*********************/
+
  /*********************
    CSS MEDIA
  *********************/ 
