@@ -251,9 +251,12 @@ CSS MUSICA
 CSS CONTACTO
 **********************/
 #revolucion {
-  background-image: url(../img/fondoUnete.png);
+  background-image: url(../img/wake_the_f_up_samurai.png);
   background-size: cover;
   background-repeat: no-repeat; }
+
+#mensaje {
+  background-color: #000000; }
 
 #formulario {
   padding: 3rem; }
