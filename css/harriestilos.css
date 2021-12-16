@@ -135,6 +135,9 @@ ESTILOS DE TEXTO
     font-family: 'Roboto', sans-serif;
     font-size: 4vw; } }
 
+/******************
+LIBRERIA DE COLORES
+******************/
 .colorUno {
   background-color: white; }
 
@@ -174,11 +177,14 @@ ESTILOS DE TEXTO
 .gradiente-4 {
   background: linear-gradient(transparent, #46433f 50%, transparent); }
 
+.sombra {
+  box-shadow: 0 0 5px 5px #130263; }
+
 /*********************
 CSS DEL INDEX
 *********************/
 #eventos {
-  background-image: url(../fondo_index.png);
+  background-image: url(../fondoIndex2.png);
   background-size: cover;
   background-repeat: no-repeat; }
   #eventos .eventos__lista {
@@ -249,11 +255,11 @@ CSS CONTACTO
   background-size: cover;
   background-repeat: no-repeat; }
 
-.formulario {
-  text-align: center;
-  font-size: 20px;
-  font-family: 'Fugaz One', cursive;
-  color: white; }
+#formulario {
+  padding: 3rem; }
+
+#mapa {
+  padding: 1rem; }
 
 /********************
 TRANSFORMACIONES Y ANIMACIONES
