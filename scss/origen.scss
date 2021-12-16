@@ -12,26 +12,26 @@ CSS DEL INDEX
     background-image: url(../fondo_index.png);
     background-size: cover;
     background-repeat: no-repeat;
-}
-.eventos__lista{ 
+    .eventos__lista{ 
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     font-size: 3vw;
 
-    .loc{
+        .loc{
         padding: 1rem;
     }
-    .lugar{
+        .lugar{
         @extend .loc
         
     }
-    .lugar::after{
+        .lugar::after{
         content: "................................."
     }
-    .fecha{
+        .fecha{
         padding: 1rem;
     }
+}
 }
 /*********************
 CSS MIEMBROS
@@ -56,10 +56,9 @@ CSS MUSICA
  /*********************
    CSS MEDIA
  *********************/ 
-.video{
-    width: 100%;
-    height: 70vh;
-}
+ #fotos{
+     padding: 1rem;
+ 
     .galeria {
     margin: 5px;
     width: 100%;
@@ -67,11 +66,11 @@ CSS MUSICA
     transition: all 1s;
   }
   
-  .galeria:hover {
+    .galeria:hover {
     transform: scale(0.95)
   }
   
-  .galeria img {
+    .galeria img {
     width: 100%;
     height: auto;
     border-radius: 1rem;
@@ -79,10 +78,19 @@ CSS MUSICA
     border-width: 5rem;
   }
   
-  .desc {
+    .desc {
     padding: 15px;
     text-align: center;
   }
+ }
+ #videos{
+     padding: 1rem;
+
+    .video{
+    width: 100%;
+    height: 65vh;
+    }
+}
 
 
 
@@ -123,41 +131,54 @@ TRANSFORMACIONES Y ANIMACIONES
 MEDIA QUERIES
 *********************/
 @media only screen and (max-width:991px) {
+
+/********************
+        INDEX
+********************/
    
-   
-   /********
-   INDEX
-   ********/
+#eventos{
     .eventos__lista{
         display: block;
         text-align: center;
-        margin: 2rem;
+        justify-content: center;
         text-transform: uppercase;
+        padding: 1rem;
         .loc{
             padding: 0rem;
         }
-    }
-    .lugar::after{
-        display: none;
-}
-    /****************
-    MEDIA
-    ****************/
-        .tamanosFotos{
-            width: 300px;
-            height: 150px;
-            margin: 30px;
-        } 
-        .transMedia{
-            transition: all 2s;
+        .lugar{
+            padding: 0rem;
         }
-        .transMedia:hover{
+        .lugar::after{
+            display: none;
+        }
+        .fecha{
+            padding: 0rem;
+        }
+    }
+}
+/********************
+        MIEMBROS
+********************/
+/********************
+        MEDIA
+*********************/
+    .tamanosFotos{
+        width: 300px;
+        height: 150px;
+        margin: 30px;
+        } 
+    .transMedia{
+        transition: all 2s;
+    }
+    .transMedia:hover{
             width: 400px;
             height: 250px;
         }
+    }
 
     
-}
+
 @media only screen and (max-width:500px){
 
     /****************

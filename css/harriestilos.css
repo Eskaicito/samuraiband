@@ -94,6 +94,10 @@ ESTILOS DE TEXTO
 .parrafos-2:hover {
   background-color: #000000; }
 
+.parrafos-3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw; }
+
 .subtexto {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2vw; }
@@ -107,17 +111,29 @@ ESTILOS DE TEXTO
   .parrafos {
     font-size: 3vw; }
   .parrafos-2 {
-    font-size: 4vw; }
+    font-size: 3vw; }
+  .parrafos-3 {
+    font-size: 1.5vw; }
   .subtexto {
-    font-size: 4vw; } }
+    font-size: 4vw;
+    text-align: center;
+    justify-content: center; } }
 
 @media only screen and (max-width: 650px) {
   .parrafos {
     font-size: 4vw;
     text-align: center; }
+  .parrafos-3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw; }
   .subtexto {
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: center; } }
+
+@media only screen and (max-width: 600px) {
+  .parrafos-3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw; } }
 
 .colorUno {
   background-color: white; }
@@ -165,18 +181,17 @@ CSS DEL INDEX
   background-image: url(../fondo_index.png);
   background-size: cover;
   background-repeat: no-repeat; }
-
-.eventos__lista {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  font-size: 3vw; }
-  .eventos__lista .loc, .eventos__lista .lugar {
-    padding: 1rem; }
-  .eventos__lista .lugar::after {
-    content: "................................."; }
-  .eventos__lista .fecha {
-    padding: 1rem; }
+  #eventos .eventos__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 3vw; }
+    #eventos .eventos__lista .loc, #eventos .eventos__lista .lugar {
+      padding: 1rem; }
+    #eventos .eventos__lista .lugar::after {
+      content: "................................."; }
+    #eventos .eventos__lista .fecha {
+      padding: 1rem; }
 
 /*********************
 CSS MIEMBROS
@@ -201,29 +216,30 @@ CSS MUSICA
 /*********************
    CSS MEDIA
  *********************/
-.video {
-  width: 100%;
-  height: 70vh; }
+#fotos {
+  padding: 1rem; }
+  #fotos .galeria {
+    margin: 5px;
+    width: 100%;
+    height: auto;
+    transition: all 1s; }
+  #fotos .galeria:hover {
+    transform: scale(0.95); }
+  #fotos .galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    border-color: white;
+    border-width: 5rem; }
+  #fotos .desc {
+    padding: 15px;
+    text-align: center; }
 
-.galeria {
-  margin: 5px;
-  width: 100%;
-  height: auto;
-  transition: all 1s; }
-
-.galeria:hover {
-  transform: scale(0.95); }
-
-.galeria img {
-  width: 100%;
-  height: auto;
-  border-radius: 1rem;
-  border-color: white;
-  border-width: 5rem; }
-
-.desc {
-  padding: 15px;
-  text-align: center; }
+#videos {
+  padding: 1rem; }
+  #videos .video {
+    width: 100%;
+    height: 65vh; }
 
 /**********************
 CSS CONTACTO
@@ -259,21 +275,29 @@ TRANSFORMACIONES Y ANIMACIONES
 MEDIA QUERIES
 *********************/
 @media only screen and (max-width: 991px) {
-  /********
-   INDEX
-   ********/
-  .eventos__lista {
+  /********************
+        INDEX
+********************/
+  #eventos .eventos__lista {
     display: block;
     text-align: center;
-    margin: 2rem;
-    text-transform: uppercase; }
-    .eventos__lista .loc, .eventos__lista .lugar {
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 1rem; }
+    #eventos .eventos__lista .loc, #eventos .eventos__lista .lugar {
       padding: 0rem; }
-  .lugar::after {
-    display: none; }
-  /****************
-    MEDIA
-    ****************/
+    #eventos .eventos__lista .lugar {
+      padding: 0rem; }
+    #eventos .eventos__lista .lugar::after {
+      display: none; }
+    #eventos .eventos__lista .fecha {
+      padding: 0rem; }
+  /********************
+        MIEMBROS
+********************/
+  /********************
+        MEDIA
+*********************/
   .tamanosFotos {
     width: 300px;
     height: 150px;

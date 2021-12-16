@@ -34,6 +34,10 @@ ESTILOS DE TEXTO
 .parrafos-2:hover{
     background-color: #000000;
 }
+.parrafos-3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+}
 .subtexto{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2vw;
@@ -51,10 +55,15 @@ ESTILOS DE TEXTO
         font-size: 3vw;
     }
     .parrafos-2{
-        font-size: 4vw;
+        font-size: 3vw;
+    }
+    .parrafos-3{
+        font-size: 1.5vw;
     }
     .subtexto{
         font-size: 4vw;
+        text-align: center;
+        justify-content: center;
     }
 }
 @media only screen and (max-width:650px) {
@@ -63,9 +72,19 @@ ESTILOS DE TEXTO
         font-size: 4vw;
         text-align: center;
     }
+    .parrafos-3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5vw;
+    }
     .subtexto{
-        font-size: 6vw;
+        font-size: 5vw;
         text-align: center
+    }
+}
+@media only screen and (max-width:600px){
+    .parrafos-3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 4vw;
     }
 }
 
