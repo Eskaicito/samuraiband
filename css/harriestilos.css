@@ -161,7 +161,7 @@ ESTILOS DE TEXTO
 /*********************
 CSS DEL INDEX
 *********************/
-.fondoIndex {
+#eventos {
   background-image: url(../fondo_index.png);
   background-size: cover;
   background-repeat: no-repeat; }
