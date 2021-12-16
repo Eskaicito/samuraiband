@@ -91,6 +91,9 @@ ESTILOS DE TEXTO
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold; }
 
+.parrafos-2:hover {
+  background-color: #000000; }
+
 .subtexto {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2vw; }
@@ -172,6 +175,17 @@ CSS DEL INDEX
     padding: 1rem; }
   .eventos__lista .lugar::after {
     content: "................................."; }
+
+/*********************
+CSS MIEMBROS
+**********************/
+#carrusel {
+  padding: 1rem; }
+
+#historia {
+  background-image: url(../img/otro_conciero_samurai.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /*********************
    CSS MEDIA

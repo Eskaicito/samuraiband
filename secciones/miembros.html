@@ -14,7 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Josefin+Sans:wght@200;600&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Stalinist+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 <body>
@@ -69,12 +68,12 @@
       <div>
         <h1 class="titulos" data-aos="fade-in">la banda</h1>
       </div>
-      <section>
+      <section id="carrusel">
         <article class="container-fluid">
           <div class="container">
             <div class="row d-flex justify-content-center">
               <div>
-                <p class="parrafos-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vero repudiandae labore adipisci fugit aliquid laboriosam praesentium vel odit corporis explicabo, voluptatibus quaerat ab earum est consequatur magnam quos nihil?</p>
+                <p class="parrafos-2 text-center">Originalmente fundada por Johnny Silverhand y Kerry Eurodyne, SAMURAI comenzó como una banda callejera, tocando en varios bares y clubes alrededor de Night City. Una noche de 2003, después de tocar en the Rainbow Cadenza, se acercó a la banda un hombre que se ofreció a firmarlos después de presenciar su impresionante actuación. Este hombre resultó ser nada menos que Jack Masters, el jefe ejecutivo de Universal Music en ese momento. En tres semanas, SAMURAI firmó, tenía un récord en producción y se preparaba para recorrer todas las ciudades importantes del mundo.</p>
               </div>
               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -84,7 +83,7 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="../img/concierto_samurai.jpg" class="d-block w-100" alt="...">
+                    <img src="../img/otro_logo_samurai.png" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
                     <img src="../img/johhny_frente_discos.jpg" class="d-block w-100" alt="...">
@@ -98,15 +97,12 @@
           </div>
         </article>
       </section>
-      <section class="gradiente-3">
+      <section id="historia">
         <article class="container-fluid">
           <div class="container">
-            <div class="row">
-              <div class="col-lg-6 d-flex justify-content-center">
-                <img class="canciones--tamano trans" src="../img/poster_samurai_2.png" alt="poster_samurai_2">
-              </div>
-              <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <p class="parrafos-2">La favorita de Johnny Silverhand, el líder de Samurai. Compuesta por él luego de perder a su novia, Alt Cunningham, a manos de Arasaka, esta canción es la máxima expresión de amor que alguna vez el legendario rockero pudo dar...</p>
+            <div class="row d-flex justify-content-center">
+              <div class="d-flex m-5 flex-column justify-content-center">
+                <p class="parrafos-2 trans text-center">Durante los años siguientes, SAMURAI realizó giras por todo el mundo, dando conciertos con audienciaS de miles de personas, inclusive logrando llenar todo el estadio de Wembley. A principios de 2007, la banda sufrió un golpe que más tarde sería decisivo. Nancy es puesta en prisión, y lo que llevó a la separación del grupo hasta 2020. Ya para esa década, SAMURAI volvería a tocar en varias partes de los Estados Unidos. En 2023, Johnny y la banda estaban grabando una nueva canción en su estudio (probablemente la última de la historia), pero desafortunadamente nunca llegaron a lanzarla, ya que la mayoría de sus grabaciones se perdieron en el Holocausto de Night City, el mismo incidente que se llevó a Silverhand. El último concierto de SAMURAI fue en el bar The Hammer, siendo la última vez que Kerry y Johnny se verían.</p>
               </div>
             </div>
           </div>
@@ -180,10 +176,6 @@
     <script>
       var myCarousel = document.querySelector('#myCarousel')
       var carousel = new bootstrap.Carousel(myCarousel)
-    </script>
-    <script src="js/wow.min.js"></script>
-    <script>
-    new WOW().init();
     </script>
 </body>
 </html>
