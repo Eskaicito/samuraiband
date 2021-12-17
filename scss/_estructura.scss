@@ -10,7 +10,8 @@ ESTILOS GENERALES
 header{
     position: sticky;
     top: 0;
-    background-color: transparent
+    background-color: transparent;
+    z-index: 1050;
 }
 body{
     background-color: black;

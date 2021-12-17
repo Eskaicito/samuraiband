@@ -8,7 +8,8 @@ ESTILOS GENERALES
 header {
   position: sticky;
   top: 0;
-  background-color: transparent; }
+  background-color: transparent;
+  z-index: 1050; }
 
 body {
   background-color: black;
@@ -250,8 +251,6 @@ CSS MUSICA
     overflow: hidden; }
     #videos .video iframe {
       position: absolute;
-      top: 0;
-      left: 0;
       width: 100%;
       height: 100%; }
 
