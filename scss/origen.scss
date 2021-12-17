@@ -96,12 +96,11 @@ CSS MUSICA
 CSS CONTACTO
 **********************/
 #revolucion{
-    background-image: url(../img/wake_the_f_up_samurai.png);
-    background-size: cover;
+    background-image: url(../img/fondoUnete.jpg);
     background-repeat: no-repeat;
 }
 #mensaje{
-    background-color: #000000;
+    background-color: $colorCuatro;
 }
 #formulario{
     padding: 3rem;
