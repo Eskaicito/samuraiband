@@ -13,7 +13,6 @@ header {
 body {
   background-color: black;
   font-family: 'Fugaz One', cursive;
-  font-size: 1.3rem;
   color: white; }
 
 .footer {
@@ -245,8 +244,16 @@ CSS MUSICA
 #videos {
   padding: 1rem; }
   #videos .video {
-    width: 100%;
-    height: 65vh; }
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden; }
+    #videos .video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
 
 /**********************
 CSS CONTACTO
